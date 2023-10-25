@@ -1,0 +1,291 @@
+html { height:100vh; }
+
+body {
+  background-color:rgb(244, 249, 252);
+  position:absolute; top:0; bottom:0; right:0; left:0; 
+  padding: 2px;
+  }
+
+
+.custom-file-inputFile{
+  justify-content: right;
+  font-size: large;
+  padding: 10px;
+  width: auto;
+  content: 'Select file';
+ 
+}
+
+.custom-file-inputSubmit{
+  font-size: large;
+  margin: 10px;
+  width: auto;
+ 
+
+
+}
+
+.uploadForm{
+
+  display: block;
+  background-color: rgb(244, 251, 255);  
+  height: 6em;
+  
+}
+
+
+.flexContainerInner {
+  display: flex;
+  position: relative;
+  justify-content: space-between  ;
+  height: 92%;
+  padding: 10px ;
+  
+}
+
+.flexContainerleft{
+  display: block;
+  margin-right: 10px;
+  position: relative;;
+  width: 40%;
+  margin-top: 10px;
+  background-color:rgb(251, 252, 252);
+  
+}
+
+.logPanel {
+  background-color:rgb(251, 252, 252);
+  position: relative;
+  height: 58%;
+
+
+}
+
+
+.flexContainerRight{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 60%;
+  height: 99%;
+  
+}
+
+.executedScripts{
+  width: 100%;
+  display: flex;
+  border-style: none;
+  position: relative;
+}
+
+.executedScriptsIframe{
+  width: 100%;
+  border-style: none;
+  position: relative;
+
+}
+
+.navbarContainer{
+  display: flex;
+  justify-content: space-between ;
+  width: auto;
+  height: 4em;
+  background-color: rgb(201, 234, 254) ;
+
+}
+
+.controlPanel{
+  padding: 10px;
+  display: block;
+  background-color:  rgb(251, 252, 252);
+  margin-bottom: 10px;
+  
+}
+
+.logPanelInner {  
+    height: fit-content;
+    background-color:rgb(251, 252, 252);
+    padding: 10px;
+    justify-content: end;
+    height: 100%;
+}
+
+.logRow{
+  padding: 30px;
+  background-color: rgb(244, 249, 252);
+  padding: 5px;
+  margin: 0;
+  }
+
+.logRowHeader{
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  font-size: x-large;
+  background-color: rgb(244, 251, 255);
+  padding: 5px;
+  margin-bottom: 15px;
+
+
+}
+.logRow:hover{
+  padding: 30px;
+  background-color:   rgb(216, 237, 250);
+  padding: 5px;
+  align-items: center;
+  overflow: visible;
+  width: auto;
+
+}
+
+.navbarLinks{
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  background-color: rgb(202, 237, 255) ;
+  
+
+
+}
+
+.navBarOptions {
+  display: inline;
+  font-size: large;
+  border-right: solid;
+  border-color: turquoise ;
+  border-width: 2px;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: center;
+  width: 10em;
+  background-color: rgb(190, 229, 253)
+
+}
+
+.navBarOptions:hover {
+  border-right: thick;
+  border-color: turquoise ;
+  border-width: 1px;
+  display: inline;
+  padding: 10px;
+  width: 9em;
+  justify-content: center;
+  background-color: rgb(156, 217, 254)
+
+}
+
+.siteName{
+  font-size: 25px;
+  display: inline;
+  padding: 10px;
+  justify-content: flex-start;
+  align-content: center;
+  width: 20%;
+  background-color: rgb(132, 167, 189)
+
+
+}
+
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow-wrap: break-word;
+  overflow: hidden;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(85, 26, 139) ;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(85, 26, 139) ;
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(85, 26, 139) ;
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(85, 26, 139) ;
+}
+
+
+.dbContainer{
+  display: flex;
+  justify-content: last baseline;
+}
+
+.optionsPar{
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: large;
+}
+
+.optionsParclock{
+  
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: large;
+  }
+
+  .optionsHeader{
+    
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    background-color: rgb(244, 251, 255);
+
+  }
+
+  .errorMessage{
+    display: block;
+    /* background-color: rgb(221, 221, 221); */
+    color:red;
+    width: 35em;
+    padding-top: 10%;
+  
+  }
+
+  .outerCube{
+    background-color:rgb(251, 252, 252);
+    position:absolute; top:0; bottom:0; right:0; left:0; 
+
+  }
+  .errorImage{
+    display: block;
+    width: 20em;
+    height: 20em;
+  }
+.errorImageDiv{
+  display: block;
+
+}
+  .error{
+    text-align: center;
+
+  }
+
+  .errorMain{
+    font-weight: bold;
+    text-align: center;
+  }
+  .errorDiv{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+ 
+

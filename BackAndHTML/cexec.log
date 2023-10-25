@@ -1,0 +1,2 @@
+tempoary log what is cleaned out to lighten up the get request on the front end.
+0 9 * * 0 php /var/www/html/tools/reporting/review_logfile_size.php
